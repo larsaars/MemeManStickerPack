@@ -1,0 +1,514 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.lurzapps.mememan2",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "meme man 1",
+      "publisher": "Lurzapps",
+      "tray_image_file": "header.png",
+      "image_data_version": "2",
+      "avoid_cache": false,
+      "publisher_email": "lurzapps@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/developer?id=Lurzapps",
+      "privacy_policy_website": "https://meme-man-wa-sticker.flycricket.io/privacy.html",
+      "license_agreement_website": "https://meme-man-wa-sticker.flycricket.io/terms.html",
+      "stickers": [
+        {
+          "image_file": "stonks.webp",
+          "emojis": [
+            "📈",
+            "🙂",
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "not_stonks.webp",
+          "emojis": [
+            "📉",
+            "👎",
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "angery_stonks.webp",
+          "emojis": [
+            "📉",
+            "😠",
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "super_stonks.webp",
+          "emojis": [
+            "📈",
+            "😰",
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "sad_stonks.webp",
+          "emojis": [
+            "📉",
+            "😥",
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "confusement.webp",
+          "emojis": [
+            "😕",
+            "⛓️"
+          ]
+        },
+        {
+          "image_file": "angery.webp",
+          "emojis": [
+            "😠",
+            "👿"
+          ]
+        },
+        {
+          "image_file": "angery2.webp",
+          "emojis": [
+            "😠",
+            "👿"
+          ]
+        },
+        {
+          "image_file": "angery3.webp",
+          "emojis": [
+            "😠",
+            "👿"
+          ]
+        },
+        {
+          "image_file": "accuracy.webp",
+          "emojis": [
+            "🦂",
+            "🎯"
+          ]
+        },
+        {
+          "image_file": "achieved_comedy.webp",
+          "emojis": [
+            "😂",
+            "😹"
+          ]
+        },
+        {
+          "image_file": "acceleration.webp",
+          "emojis": [
+            "💨"
+          ]
+        },
+        {
+          "image_file": "art.webp",
+          "emojis": [
+            "📰",
+            "🎭"
+          ]
+        },
+        {
+          "image_file": "blessed.webp",
+          "emojis": [
+            "😇"
+          ]
+        },
+        {
+          "image_file": "cactus.webp",
+          "emojis": [
+            "🌵"
+          ]
+        },
+        {
+          "image_file": "chef.webp",
+          "emojis": [
+            "🔪",
+            "🥧"
+          ]
+        },
+        {
+          "image_file": "chemist.webp",
+          "emojis": [
+            "🧑‍🔬"
+          ]
+        },
+        {
+          "image_file": "clean.webp",
+          "emojis": [
+            "🛁",
+            "🧽"
+          ]
+        },
+        {
+          "image_file": "comfort.webp",
+          "emojis": [
+            "🧸"
+          ]
+        },
+        {
+          "image_file": "communism.webp",
+          "emojis": [
+            "🦄"
+          ]
+        },
+        {
+          "image_file": "computer.webp",
+          "emojis": [
+            "🖥️",
+            "💻"
+          ]
+        },
+        {
+          "image_file": "confused2.webp",
+          "emojis": [
+            "😕"
+          ]
+        },
+        {
+          "image_file": "dad.webp",
+          "emojis": [
+            "👨"
+          ]
+        },
+        {
+          "image_file": "do_not_question.webp",
+          "emojis": [
+            "⚡"
+          ]
+        },
+        {
+          "image_file": "doctor.webp",
+          "emojis": [
+            "👩‍⚕️",
+            "🧑‍⚕️",
+            "🏥"
+          ]
+        },
+        {
+          "image_file": "doubt.webp",
+          "emojis": [
+            "🤨"
+          ]
+        },
+        {
+          "image_file": "dying.webp",
+          "emojis": [
+            "💀",
+            "⚰️",
+            "☠️"
+          ]
+        },
+        {
+          "image_file": "engineer.webp",
+          "emojis": [
+            "👷"
+          ]
+        },
+        {
+          "image_file": "environment.webp",
+          "emojis": [
+            "🌲",
+            "🌳",
+            "🍂"
+          ]
+        }
+      ]
+    },
+
+    {
+      "identifier": "2",
+      "name": "meme man 2",
+      "publisher": "Lurzapps",
+      "tray_image_file": "header.png",
+      "image_data_version": "2",
+      "avoid_cache": false,
+      "publisher_email": "lurzapps@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/developer?id=Lurzapps",
+      "privacy_policy_website": "https://meme-man-wa-sticker.flycricket.io/privacy.html",
+      "license_agreement_website": "https://meme-man-wa-sticker.flycricket.io/terms.html",
+      "stickers": [
+        {
+          "image_file": "famous.webp",
+          "emojis": [
+            "📰"
+          ]
+        },
+        {
+          "image_file": "fashion.webp",
+          "emojis": [
+            "👜",
+            "🧳"
+          ]
+        },
+        {
+          "image_file": "fed.webp",
+          "emojis": [
+            "🦕"
+          ]
+        },
+        {
+          "image_file": "gaming.webp",
+          "emojis": [
+            "🎮",
+            "🎲"
+          ]
+        },
+        {
+          "image_file": "gaming2.webp",
+          "emojis": [
+            "🎮",
+            "🎲"
+           ]
+        },
+        {
+          "image_file": "genius.webp",
+          "emojis": [
+            "🤓",
+            "⛓️"
+          ]
+        },
+        {
+          "image_file": "gorgeous.webp",
+          "emojis": [
+            "🦋",
+            "🦚"
+          ]
+        },
+        {
+          "image_file": "hacks.webp",
+          "emojis": [
+            "🤓"
+          ]
+        },
+        {
+          "image_file": "hello.webp",
+          "emojis": [
+            "👋"
+          ]
+        },
+        {
+          "image_file": "health.webp",
+          "emojis": [
+            "👨‍⚕️",
+            "👩‍⚕️"
+          ]
+        },
+        {
+          "image_file": "knowledge.webp",
+          "emojis": [
+            "🤔"
+          ]
+        },
+        {
+          "image_file": "lawyer.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "logic.webp",
+          "emojis": [
+            "🕵️"
+          ]
+        },
+        {
+          "image_file": "magic.webp",
+          "emojis": [
+            "🎱"
+          ]
+        },
+        {
+          "image_file": "main.webp",
+          "emojis": [
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "maths.webp",
+          "emojis": [
+            "➕",
+            "➖",
+            "🧮"
+          ]
+        },
+        {
+          "image_file": "mechanic.webp",
+          "emojis": [
+            "🧑‍🔧",
+            "👩‍🔧",
+            "👨‍🔧"
+          ]
+        },
+        {
+          "image_file": "music.webp",
+          "emojis": [
+            "🎵",
+            "🎼"
+          ]
+        },
+        {
+          "image_file": "music2.webp",
+          "emojis": [
+            "🎵",
+            "🎼"
+          ]
+        },
+        {
+          "image_file": "not_health.webp",
+          "emojis": [
+            "👎"
+          ]
+        },
+        {
+          "image_file": "parcour.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "pilot.webp",
+          "emojis": [
+            "👩‍✈️",
+            "👨‍✈️",
+            "✈️"
+          ]
+        },
+        {
+          "image_file": "politics.webp",
+          "emojis": [
+            "🗳️"
+          ]
+        },
+        {
+          "image_file": "prank.webp",
+          "emojis": [
+            "⚡"
+          ]
+        },
+        {
+          "image_file": "rapper.webp",
+          "emojis": [
+            "🎵"
+          ]
+        },
+        {
+          "image_file": "realisation.webp",
+          "emojis": [
+            "🤭"
+          ]
+        },
+        {
+          "image_file": "remix.webp",
+          "emojis": [
+             "🎵"
+          ]
+        },
+        {
+          "image_file": "sad.webp",
+          "emojis": [
+            "😥",
+            "😔",
+            "😟"
+          ]
+        },
+        {
+          "image_file": "tec.webp",
+          "emojis": [
+            "🤓"
+          ]
+        }
+      ]
+    },
+
+    {
+      "identifier": "3",
+      "name": "meme man 3",
+      "publisher": "Lurzapps",
+      "tray_image_file": "header.png",
+      "image_data_version": "2",
+      "avoid_cache": false,
+      "publisher_email": "lurzapps@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/developer?id=Lurzapps",
+      "privacy_policy_website": "https://meme-man-wa-sticker.flycricket.io/privacy.html",
+      "license_agreement_website": "https://meme-man-wa-sticker.flycricket.io/terms.html",
+      "stickers": [
+        {
+          "image_file": "science.webp",
+          "emojis": [
+            "🔬",
+            "⚗️",
+            "🧪"
+          ]
+        },
+        {
+          "image_file": "spaghetti.webp",
+          "emojis": [
+            "🍝"
+          ]
+        },
+        {
+          "image_file": "speed.webp",
+          "emojis": [
+            "💨"
+          ]
+        },
+        {
+          "image_file": "stelf.webp",
+          "emojis": []
+        },
+        {
+          "image_file": "stonks_q.webp",
+          "emojis": [
+            "📉",
+            "🗠"
+          ]
+        },
+        {
+          "image_file": "strong.webp",
+          "emojis": [
+            "💪",
+            "⛓️"
+          ]
+        },
+        {
+          "image_file": "thanos.webp",
+          "emojis": [
+            "💪",
+            "🟪"
+          ]
+        },
+        {
+          "image_file": "trumpet.webp",
+          "emojis": [
+            "🎺"
+          ]
+        },
+        {
+          "image_file": "war.webp",
+          "emojis": [
+            "💣",
+            "⚔️"
+          ]
+        },
+        {
+          "image_file": "work.webp",
+          "emojis": [
+            "🔨",
+            "👷",
+            "🧑‍💼"
+          ]
+        },
+        {
+          "image_file": "wrong.webp",
+          "emojis": [
+            "⛔"
+          ]
+        },
+        {
+          "image_file": "zombie.webp",
+          "emojis": [
+            "🧟"
+          ]
+        }
+      ]
+    }
+  ]
+}
