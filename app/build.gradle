@@ -9,7 +9,7 @@ android {
     }
     compileSdkVersion 29
     defaultConfig {
-        applicationId 'com.lurzapps.mememan'
+        applicationId 'com.lurzapps.mememan2'
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
