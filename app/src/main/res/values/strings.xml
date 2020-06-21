@@ -40,7 +40,7 @@
     <string name="add_pack_fail_prompt_update_play_link">Update</string>
     <!-- Toast text when we could not take user to play store because they don't have Google Play app installed -->
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
-    <string name="disclaimer">Disclaimer: the creator of this sticker pack does not have any kind of correlation to the brand WhatsApp or any of its descendants. This is NOT an official Sticker Pack by WhatsApp, only one for WhatsApp!</string>
+    <string name="disclaimer">Disclaimer: the creator of this sticker pack does not have any kind of correlation to the brand WhatsApp, Inc. or any of its descendants. This is NOT an official Sticker Pack by WhatsApp, only one for WhatsApp!</string>
     <string name="view_policy">View Privacy Policy</string>
     <string name="view_terms_of_use"><![CDATA[View Terms & Conditions]]></string>
     <string name="accept">I have read the above and accept it</string>
