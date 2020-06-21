@@ -76,7 +76,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
             dialog.dismiss();
         });
         terms.setOnClickListener(v -> goToUrl(getString(R.string.terms_url)));
-        policy.setOnClickListener(v -> goToUrl(getString(R.string.privacy_policy)));
+        policy.setOnClickListener(v -> goToUrl(getString(R.string.privacy_url)));
 
         dialog.show();
     }
