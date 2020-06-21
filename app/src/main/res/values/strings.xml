@@ -1,6 +1,8 @@
 <resources>
+    <string name="privacy_url" translatable="false">https://meme-man-stonks-stic.flycricket.io/privacy.html</string>
+    <string name="terms_url" translatable="false">https://meme-man-stonks-stic.flycricket.io/terms.html</string>
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
-    <string name="app_name">Meme Man WA Sticker Pack</string>
+    <string name="app_name">Meme Man Stonks Sticker Pack</string>
     <!-- Content description for the sticker pack tray image -->
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
@@ -38,5 +40,9 @@
     <string name="add_pack_fail_prompt_update_play_link">Update</string>
     <!-- Toast text when we could not take user to play store because they don't have Google Play app installed -->
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
-    <string name="disclaimer">Disclaimer: the creator of this sticker pack does not have any kind of correlation to the brand WhatsApp or any of its descendants. This is NOT an official Sticker Pack by WhatsApp, only for WhatsApp!</string>
+    <string name="disclaimer">Disclaimer: the creator of this sticker pack does not have any kind of correlation to the brand WhatsApp or any of its descendants. This is NOT an official Sticker Pack by WhatsApp, only one for WhatsApp!</string>
+    <string name="view_policy">View Privacy Policy</string>
+    <string name="view_terms_of_use"><![CDATA[View Terms & Conditions]]></string>
+    <string name="accept">I have read the above and accept it</string>
+    <string name="cancel">Cancel</string>
 </resources>

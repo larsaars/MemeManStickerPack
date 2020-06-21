@@ -8,9 +8,14 @@
 
 package com.lurzapps.mememan2;
 
+import android.app.Dialog;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -30,6 +35,8 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private ArrayList<StickerPack> stickerPackList;
 
+    private SharedPreferences prefs;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +48,43 @@ public class StickerPackListActivity extends AddStickerPackActivity {
             getSupportActionBar().setTitle(getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, stickerPackList.size()));
         }
 
+        prefs = getSharedPreferences("not_official", MODE_PRIVATE);
+
+        checkShowingFirstDialog();
+    }
+
+    private void checkShowingFirstDialog() {
+        if(prefs.getBoolean("accepted", false)) {
+            return;
+        }
+
+        //show since it has not yet been accepted
+        Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.license);
+        dialog.setCancelable(false);
+
+        //init buttons
+        AppCompatButton cancel = dialog.findViewById(R.id.licenseBtnCancel),
+                accept = dialog.findViewById(R.id.licenseBtnAccept),
+                terms = dialog.findViewById(R.id.licenseBtnTerms),
+                policy = dialog.findViewById(R.id.licenseBtnPolicy);
+
+        //set listener and perform actions
+        cancel.setOnClickListener(v -> finish());
+        accept.setOnClickListener(v -> {
+            prefs.edit().putBoolean("accepted", true).apply();
+            dialog.dismiss();
+        });
+        terms.setOnClickListener(v -> goToUrl(getString(R.string.terms_url)));
+        policy.setOnClickListener(v -> goToUrl(getString(R.string.privacy_policy)));
+
+        dialog.show();
+    }
+
+    private void goToUrl(String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 
     @Override

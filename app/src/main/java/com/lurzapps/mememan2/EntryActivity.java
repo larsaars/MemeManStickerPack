@@ -8,9 +8,11 @@
 
 package com.lurzapps.mememan2;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,6 +21,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -26,8 +29,6 @@ import java.util.ArrayList;
 public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
-
-    private SharedPreferences prefs;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -40,19 +41,6 @@ public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
         progressBar = findViewById(R.id.entry_activity_progress);
         loadListAsyncTask = new LoadListAsyncTask(this);
         loadListAsyncTask.execute();
-
-        prefs = getSharedPreferences("not_official", MODE_PRIVATE);
-
-        checkShowingFirstDialog();
-    }
-
-    private void checkShowingFirstDialog() {
-        if(prefs.getBoolean("accepted", false)) {
-            return;
-        }
-
-        //show since it has not yet been accepted
-
     }
 
     private void showStickerPack(ArrayList<com.lurzapps.mememan2.StickerPack> stickerPackList) {
