@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "320349883796",
-    "firebase_url": "https://mememanwa-60778.firebaseio.com",
-    "project_id": "mememanwa-60778",
-    "storage_bucket": "mememanwa-60778.appspot.com"
+    "project_number": "97615727470",
+    "firebase_url": "https://meme-man-stonks-sticker-pack.firebaseio.com",
+    "project_id": "meme-man-stonks-sticker-pack",
+    "storage_bucket": "meme-man-stonks-sticker-pack.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:320349883796:android:3918b34e34aaca32a41381",
+        "mobilesdk_app_id": "1:97615727470:android:9b82302878264354588f7f",
         "android_client_info": {
-          "package_name": "com.lurzapps.mememan"
+          "package_name": "com.lurzapps.mememan2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "320349883796-nq0m5r0s0b2coigqv2noj52ajgvisv2p.apps.googleusercontent.com",
+          "client_id": "97615727470-hrogf0hnfec5mjr7q5d6gkqbkmu2i6mk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD1_SGqLCENh6TxgKI3wR7Wsg1NORIiB50"
+          "current_key": "AIzaSyBQM3PcaopW1cGazdym2M7t52mcah1dDUI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "320349883796-nq0m5r0s0b2coigqv2noj52ajgvisv2p.apps.googleusercontent.com",
+              "client_id": "97615727470-hrogf0hnfec5mjr7q5d6gkqbkmu2i6mk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
