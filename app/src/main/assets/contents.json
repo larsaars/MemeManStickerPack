@@ -216,7 +216,6 @@
         }
       ]
     },
-
     {
       "identifier": "2",
       "name": "meme man 2",
@@ -260,7 +259,7 @@
           "emojis": [
             "🎮",
             "🎲"
-           ]
+          ]
         },
         {
           "image_file": "genius.webp",
@@ -398,7 +397,7 @@
         {
           "image_file": "remix.webp",
           "emojis": [
-             "🎵"
+            "🎵"
           ]
         },
         {
@@ -417,7 +416,6 @@
         }
       ]
     },
-
     {
       "identifier": "3",
       "name": "meme man 3",
@@ -608,6 +606,85 @@
           "image_file": "yesorang.webp",
           "emojis": [
             "😎"
+          ]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "meme man 4",
+      "publisher": "Lurzapps",
+      "tray_image_file": "header.png",
+      "image_data_version": "1",
+      "avoid_cache": false,
+      "publisher_email": "lurzapps@gmail.com",
+      "publisher_website": "https://play.google.com/store/apps/developer?id=Lurzapps",
+      "privacy_policy_website": "https://meme-man-stonks-stic.flycricket.io/privacy.html",
+      "license_agreement_website": "https://meme-man-stonks-stic.flycricket.io/terms.html",
+      "stickers": [
+        {
+          "image_file": "depression.webp",
+          "emojis": [
+            "😥",
+            "😞"
+          ]
+        },
+        {
+          "image_file": "einstein.webp",
+          "emojis": [
+            "🤓",
+            "🧠"
+          ]
+        },
+        {
+          "image_file": "frontal.webp",
+          "emojis": [
+            "🐥"
+          ]
+        },
+        {
+          "image_file": "intelligent.webp",
+          "emojis": [
+            "🤓",
+            "🧠"
+          ]
+        },
+        {
+          "image_file": "kwuak.webp",
+          "emojis": [
+            "🦆"
+          ]
+        },
+        {
+          "image_file": "money.webp",
+          "emojis": [
+            "💰",
+            "🤑",
+            "📈"
+          ]
+        },
+        {
+          "image_file": "rekt.webp",
+          "emojis": [
+            "💣",
+            "⚗️",
+            "🔥"
+          ]
+        },
+        {
+          "image_file": "t_rekt.webp",
+          "emojis": [
+            "🦖",
+            "💣",
+            "🔥"
+          ]
+        },
+        {
+          "image_file": "shronks.webp",
+          "emojis": [
+            "📈",
+            "🟢",
+            "🟩"
           ]
         }
       ]
