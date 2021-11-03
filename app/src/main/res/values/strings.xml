@@ -45,4 +45,6 @@
     <string name="view_terms_of_use"><![CDATA[View Terms & Conditions]]></string>
     <string name="accept">I have read the above and accept it</string>
     <string name="cancel">Cancel</string>
+    <string name="sticker_pack_details_tap_to_preview">Tap to preview sticker</string>
+    <string name="sticker_pack_animation_indicator">Animated sticker pack</string>
 </resources>

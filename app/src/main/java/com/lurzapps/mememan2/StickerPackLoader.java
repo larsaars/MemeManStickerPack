@@ -25,6 +25,7 @@ import java.util.HashSet;
 import java.util.List;
 
 import static com.lurzapps.mememan2.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.lurzapps.mememan2.StickerContentProvider.ANIMATED_STICKER_PACK;
 import static com.lurzapps.mememan2.StickerContentProvider.AVOID_CACHE;
 import static com.lurzapps.mememan2.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
 import static com.lurzapps.mememan2.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;

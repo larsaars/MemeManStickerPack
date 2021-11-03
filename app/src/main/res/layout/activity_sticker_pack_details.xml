@@ -86,7 +86,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <com.example.samplestickerapp.BottomFadingRecyclerView
+        <com.lurzapps.mememan2.BottomFadingRecyclerView
             android:id="@+id/sticker_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -160,12 +160,12 @@
                     android:layout_gravity="center"
                     android:background="@android:color/transparent"
                     android:clickable="false"
-                    android:drawableStart="@drawable/sticker_3rdparty_wa"
-                    android:drawableLeft="@drawable/sticker_3rdparty_wa"
                     android:drawablePadding="8dp"
                     android:focusable="false"
                     android:foreground="@android:color/transparent"
-                    android:text="@string/add_to_whatsapp" />
+                    android:text="@string/add_to_whatsapp"
+                    app:drawableStartCompat="@drawable/sticker_3rdparty_wa"
+                    app:drawableLeftCompat="@drawable/sticker_3rdparty_wa" />
 
 
             </FrameLayout>
