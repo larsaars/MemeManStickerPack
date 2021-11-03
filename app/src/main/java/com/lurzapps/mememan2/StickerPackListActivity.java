@@ -8,6 +8,7 @@
 
 package com.lurzapps.mememan2;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -153,6 +154,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
             return Arrays.asList(stickerPackArray);
         }
 
+        @SuppressLint("NotifyDataSetChanged")
         @Override
         protected void onPostExecute(List<StickerPack> stickerPackList) {
             final StickerPackListActivity stickerPackListActivity = stickerPackListActivityWeakReference.get();

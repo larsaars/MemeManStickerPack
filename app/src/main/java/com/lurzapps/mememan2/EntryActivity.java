@@ -26,7 +26,8 @@ import androidx.appcompat.widget.AppCompatButton;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
-public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
+
+public class EntryActivity extends BaseActivity {
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
 
@@ -43,18 +44,18 @@ public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
         loadListAsyncTask.execute();
     }
 
-    private void showStickerPack(ArrayList<com.lurzapps.mememan2.StickerPack> stickerPackList) {
+    private void showStickerPack(ArrayList<StickerPack> stickerPackList) {
         progressBar.setVisibility(View.GONE);
         if (stickerPackList.size() > 1) {
-            final Intent intent = new Intent(this, com.lurzapps.mememan2.StickerPackListActivity.class);
-            intent.putParcelableArrayListExtra(com.lurzapps.mememan2.StickerPackListActivity.EXTRA_STICKER_PACK_LIST_DATA, stickerPackList);
+            final Intent intent = new Intent(this, StickerPackListActivity.class);
+            intent.putParcelableArrayListExtra(StickerPackListActivity.EXTRA_STICKER_PACK_LIST_DATA, stickerPackList);
             startActivity(intent);
             finish();
             overridePendingTransition(0, 0);
         } else {
-            final Intent intent = new Intent(this, com.lurzapps.mememan2.StickerPackDetailsActivity.class);
-            intent.putExtra(com.lurzapps.mememan2.StickerPackDetailsActivity.EXTRA_SHOW_UP_BUTTON, false);
-            intent.putExtra(com.lurzapps.mememan2.StickerPackDetailsActivity.EXTRA_STICKER_PACK_DATA, stickerPackList.get(0));
+            final Intent intent = new Intent(this, StickerPackDetailsActivity.class);
+            intent.putExtra(StickerPackDetailsActivity.EXTRA_SHOW_UP_BUTTON, false);
+            intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_DATA, stickerPackList.get(0));
             startActivity(intent);
             finish();
             overridePendingTransition(0, 0);
@@ -76,7 +77,7 @@ public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
         }
     }
 
-    static class LoadListAsyncTask extends AsyncTask<Void, Void, Pair<String, ArrayList<com.lurzapps.mememan2.StickerPack>>> {
+    static class LoadListAsyncTask extends AsyncTask<Void, Void, Pair<String, ArrayList<StickerPack>>> {
         private final WeakReference<EntryActivity> contextWeakReference;
 
         LoadListAsyncTask(EntryActivity activity) {
@@ -84,17 +85,17 @@ public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
         }
 
         @Override
-        protected Pair<String, ArrayList<com.lurzapps.mememan2.StickerPack>> doInBackground(Void... voids) {
-            ArrayList<com.lurzapps.mememan2.StickerPack> stickerPackList;
+        protected Pair<String, ArrayList<StickerPack>> doInBackground(Void... voids) {
+            ArrayList<StickerPack> stickerPackList;
             try {
                 final Context context = contextWeakReference.get();
                 if (context != null) {
-                    stickerPackList = com.lurzapps.mememan2.StickerPackLoader.fetchStickerPacks(context);
+                    stickerPackList = StickerPackLoader.fetchStickerPacks(context);
                     if (stickerPackList.size() == 0) {
                         return new Pair<>("could not find any packs", null);
                     }
-                    for (com.lurzapps.mememan2.StickerPack stickerPack : stickerPackList) {
-                        com.lurzapps.mememan2.StickerPackValidator.verifyStickerPackValidity(context, stickerPack);
+                    for (StickerPack stickerPack : stickerPackList) {
+                        StickerPackValidator.verifyStickerPackValidity(context, stickerPack);
                     }
                     return new Pair<>(null, stickerPackList);
                 } else {
@@ -107,7 +108,7 @@ public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
         }
 
         @Override
-        protected void onPostExecute(Pair<String, ArrayList<com.lurzapps.mememan2.StickerPack>> stringListPair) {
+        protected void onPostExecute(Pair<String, ArrayList<StickerPack>> stringListPair) {
 
             final EntryActivity entryActivity = contextWeakReference.get();
             if (entryActivity != null) {
@@ -120,3 +121,4 @@ public class EntryActivity extends com.lurzapps.mememan2.BaseActivity {
         }
     }
 }
+

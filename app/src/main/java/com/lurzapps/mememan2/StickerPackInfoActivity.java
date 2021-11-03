@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.IdRes;
+import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
 
 import java.io.FileNotFoundException;
@@ -47,15 +48,7 @@ public class StickerPackInfoActivity extends BaseActivity {
             final BitmapDrawable trayDrawable = new BitmapDrawable(getResources(), inputStream);
             final Drawable emailDrawable = getDrawableForAllAPIs(R.drawable.sticker_3rdparty_email);
             trayDrawable.setBounds(new Rect(0, 0, emailDrawable.getIntrinsicWidth(), emailDrawable.getIntrinsicHeight()));
-            if (Build.VERSION.SDK_INT > 17) {
-                trayIcon.setCompoundDrawablesRelative(trayDrawable, null, null, null);
-            } else {
-                if (ViewCompat.getLayoutDirection(trayIcon) == ViewCompat.LAYOUT_DIRECTION_LTR) {
-                    trayIcon.setCompoundDrawables(null, null, trayDrawable, null);
-                } else {
-                    trayIcon.setCompoundDrawables(trayDrawable, null, null, null);
-                }
-            }
+            trayIcon.setCompoundDrawablesRelative(trayDrawable, null, null, null);
         } catch (FileNotFoundException e) {
             Log.e(TAG, "could not find the uri for the tray image:" + trayIconUriString);
         }
@@ -97,10 +90,6 @@ public class StickerPackInfoActivity extends BaseActivity {
     }
 
     private Drawable getDrawableForAllAPIs(@DrawableRes int id) {
-        if (Build.VERSION.SDK_INT >= 21) {
-            return getDrawable(id);
-        } else {
-            return getResources().getDrawable(id);
-        }
+        return ContextCompat.getDrawable(this, id);
     }
 }
