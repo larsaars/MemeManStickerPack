@@ -626,9 +626,15 @@
       "image_data_version": "1",
       "avoid_cache": false,
       "publisher_email": "lurzapps@gmail.com",
+<<<<<<< HEAD
       "publisher_website": "",
       "privacy_policy_website": "https://pages.flycricket.io/meme-man-stonks-stic/privacy.html",
       "license_agreement_website": "https://pages.flycricket.io/meme-man-stonks-stic/terms.html",
+=======
+      "publisher_website": "https://play.google.com/store/apps/developer?id=Lurzapps",
+      "privacy_policy_website": "https://meme-man-stonks-stic.flycricket.io/privacy.html",
+      "license_agreement_website": "https://meme-man-stonks-stic.flycricket.io/terms.html",
+>>>>>>> 5b95b93e75fce5d9e40dd602e412c981ca3afc4d
       "stickers": [
         {
           "image_file": "depression.webp",
