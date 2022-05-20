@@ -1,6 +1,6 @@
 <resources>
-    <string name="privacy_url" translatable="false">https://meme-man-stonks-stic.flycricket.io/privacy.html</string>
-    <string name="terms_url" translatable="false">https://meme-man-stonks-stic.flycricket.io/terms.html</string>
+    <string name="privacy_url" translatable="false">https://pages.flycricket.io/meme-man-stonks-stic/privacy.html</string>
+    <string name="terms_url" translatable="false">https://pages.flycricket.io/meme-man-stonks-stic/terms.html</string>
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
     <string name="app_name">Meme Man Stonks Sticker Pack</string>
     <!-- Content description for the sticker pack tray image -->
