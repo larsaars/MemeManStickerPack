@@ -4,7 +4,6 @@ apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     //the compression of webp file during build causes problem with FileDescriptor in ContentProvider.
-<<<<<<< HEAD
     compileSdkVersion 32
     defaultConfig {
         applicationId 'com.lurzapps.mememan2'
@@ -12,15 +11,7 @@ android {
         targetSdkVersion 32
         versionCode 6
         versionName '1.3.2'
-=======
-    compileSdkVersion 31
-    defaultConfig {
-        applicationId 'com.lurzapps.mememan2'
-        minSdkVersion 21
-        targetSdkVersion 31
-        versionCode 5
-        versionName '1.3.1'
->>>>>>> 5b95b93e75fce5d9e40dd602e412c981ca3afc4d
+
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         def contentProviderAuthority = applicationId + ".stickercontentprovider"
         // Creates a placeholder property to use in the manifest.
@@ -56,13 +47,10 @@ android {
     androidResources {
         noCompress 'webp'
     }
-<<<<<<< HEAD
     namespace 'com.lurzapps.mememan2'
-=======
     androidResources {
         noCompress 'webp'
     }
->>>>>>> 5b95b93e75fce5d9e40dd602e412c981ca3afc4d
 }
 
 dependencies {
@@ -71,18 +59,11 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-
-<<<<<<< HEAD
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-=======
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
->>>>>>> 5b95b93e75fce5d9e40dd602e412c981ca3afc4d
+
 
     def fresco_version = '2.5.0'
     implementation "com.facebook.fresco:fresco:$fresco_version"
@@ -90,11 +71,6 @@ dependencies {
     implementation "com.facebook.fresco:animated-webp:$fresco_version"
     implementation "com.facebook.fresco:animated-base:$fresco_version"
 
-<<<<<<< HEAD
     implementation 'com.google.firebase:firebase-analytics:21.0.0'
     implementation 'com.google.firebase:firebase-crashlytics:18.2.10'
-=======
-    implementation 'com.google.firebase:firebase-analytics:20.0.0'
-    implementation 'com.google.firebase:firebase-crashlytics:18.2.4'
->>>>>>> 5b95b93e75fce5d9e40dd602e412c981ca3afc4d
 }
